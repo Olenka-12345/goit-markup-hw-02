@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="images" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Webstudio</title>
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="logo">
         <a href="./index.html">WebStudio</a>
-        <ul>
+        <ul class="nav-item">
           <li>
             <a href="">Studio</a>
           </li>
@@ -23,20 +38,22 @@
         </ul>
       </nav>
       <address>
-        <ul>
+        <ul class="nav_address">
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
     </header>
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="section_1_background">
+        <h1 class="title_1_background">
+          Effective Solutions for Your Business
+        </h1>
+        <button class="button_1_background" type="button">Order Service</button>
       </section>
 
       <section>
-        <h2>не пустий</h2>
+        <h2>Features</h2>
         <ul>
           <li>
             <h3>Strategy</h3>
@@ -114,8 +131,73 @@
           </li>
         </ul>
       </section>
+      <section>
+        <h2>Our Portfolio</h2>
+        <ul>
+          <li>
+            <img
+              src="./images/img_5.jpg"
+              alt="Banking App"
+              width="360"
+              height="300"
+            />
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/img_6.jpg"
+              alt="Cashless Payment"
+              width="360"
+              height="300"
+            />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/img_7.jpg"
+              alt="Meditation App"
+              width="360"
+              height="300"
+            />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/img_8.jpg"
+              alt="Taxi Service"
+              width="360"
+              height="300"
+            />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/img_9.jpg"
+              alt="Screen Illustrations"
+              width="360"
+              height="300"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img
+              src="./images/img_10.jpg"
+              alt="Online Courses"
+              width="360"
+              height="300"
+            />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
+          </li>
+        </ul>
+      </section>
     </main>
-    <footer>
+    <footer class="logo">
       <a href="./index.html">WebStudio</a>
       <p>
         Increase the flow of customers and sales for your business with digital

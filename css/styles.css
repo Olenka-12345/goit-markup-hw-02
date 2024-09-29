@@ -1,4 +1,60 @@
-p
+body
 {
-   color:aqua 
+font-family: "Roboto", "Raleway", sans-serif;
+background: #f4f4fd;
+}
+.logo 
+{
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+}
+.nav-item
+{
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+}
+.nav_address 
+{
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+}
+.section_1_background 
+{
+background: #2e2f42;
+}
+.title_1_background 
+{
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 56px;
+text-align: center;
+color: #fff;
+}
+.button_1_background
+{
+background: #4d5ae5;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+}
+h2 
+{
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 36px;
+}
+h3 
+{
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 20px;
+}
+p 
+{
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
 }
