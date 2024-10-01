@@ -29,11 +29,11 @@ color:#4d5ae5;}
 {
 color: #2e2f42;
 }
-.nav-item_1:hover
+.nav-item:hover
 {
 color: #404bbf
 }
-.nav-item_1:focus
+.nav-item:focus
  {
     color:#404bbf
 }
@@ -97,7 +97,7 @@ background-color: #404BBF;
 {
 background-color: #404BBF
 }
-.title_section_2
+.title_section_two
 {
 font-weight: 500;
 font-size: 20px;
@@ -116,7 +116,7 @@ color:#434455;
 {
 background-color: #F4F4FD;
 }
-.title_section_3
+.title_section_three
 {
 font-size: 36px;
 line-height: 1.11;
