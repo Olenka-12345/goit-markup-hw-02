@@ -29,6 +29,15 @@ color:#4d5ae5;}
 {
 color: #2e2f42;
 }
+.nav-item_1:hover
+{
+color: #404bbf
+}
+.nav-item_1:focus
+ {
+    color:#404bbf
+}
+
 .nav-item
 {
 font-family: "Roboto", sans-serif;
@@ -50,7 +59,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color:#434455;
 }
-.nav_address_item:hover
+.nav_address_item:focus
 {
 color: #404bbf;
 }
@@ -141,4 +150,8 @@ background-color:#2e2f42;
 line-height: 1.5;
 color:#F4F4FD;
 letter-spacing: 0.02em;
+}
+.footer_title
+{
+color: #f4f4fd;
 }
