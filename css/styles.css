@@ -40,7 +40,6 @@ color: #404bbf
 
 .nav-item
 {
-font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -59,11 +58,15 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color:#434455;
 }
-.nav_address_item:focus
+.nav_address_item:hover
 {
 color: #404bbf;
 }
-.section_1_background
+.nav_address_item:focus
+ {
+    color: #404bbf;
+}
+.section_one_background
 {
 background: #2e2f42;
 }
@@ -102,7 +105,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color:#2e2f42;
 }
-.paragraph_section_2
+.paragraph_section_two
 {
 font-size: 16px;
 line-height: 1.5;
